@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <record id="chart_balance_account_view_list" model="ir.ui.view">
+        <field name="name">chart.balance.account.view.list</field>
+        <field name="model">account.account</field>
+        <field name="inherit_id" ref="account.view_account_list"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="debit"/>
+                <field name="credit"/>
+                <field name="balance"/>
+                <field name="tag_ids"/>
+                <field name="reconcile"/>
+            </field>
+        </field>
+    </record>
+</odoo>
