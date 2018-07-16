@@ -12,8 +12,8 @@
     'description': """
         Agrega campos calculados de débito, crédito y saldo en la vista en tree de las cuentas contables
     """,
-    'author': "Falcón Solutions",
-    'maintainer': 'Falcon Solutions',
+    'author': "Falcon Solutions SpA",
+    'maintainer': 'Falcon Solutions SpA',
     'website': 'http://www.falconsolutions.cl',
     'license': 'AGPL-3',
     'category': 'Account',
